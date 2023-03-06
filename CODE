@@ -1,0 +1,53 @@
+//#include<iostream>
+//#include<string>
+//
+//using namespace std;
+//
+//int* alphaCounter(string str1);
+//
+//int main()
+//{
+//	const int dimention = 3;
+//	//double mass, velocity[dimention];
+//	string strValue;
+//	
+//	cout << "please enter a sentence : ";
+//	getline(cin, strValue);
+//
+//	alphaCounter(strValue);
+//
+//	system("pause");
+//	return 0;
+//}
+//int* alphaCounter(string str1)
+//{
+//	static int *alphCount = new int[26];
+//	char value='a';
+//
+//	for (int i = 0;i < 26;i++)
+//	{
+//		alphCount[i] = 0;
+//	}
+//
+//	for (int i=0;value != '\0';i++)
+//	{
+//		value = str1[i];
+//		//cout <<static_cast<int>(value)<< "  ";
+//		//cout << endl;
+//		if (65 <= static_cast<int>(value) && 90 >= static_cast<int>(value))
+//		{
+//			alphCount[static_cast<int>(value)-65]++;
+//		}
+//		else if (97 <= static_cast<int>(value) && 122 >= static_cast<int>(value))
+//		{
+//			alphCount[static_cast<int>(value) - 97]++;
+//		}
+//	}
+//	for (int i = 0;i < 26;i++)
+//	{
+//		if(alphCount[i] != 0 )
+//		cout << static_cast<char>(i + 97) << " : " << alphCount[i]<<endl;
+//	}
+//	
+//	return  alphCount;
+//}
